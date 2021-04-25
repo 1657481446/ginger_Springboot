@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: springboot
+    password: 111111
+    url: jdbc:oracle:thin:@localhost:1521/ORCLpdb
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
